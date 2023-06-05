@@ -1,0 +1,165 @@
+{
+    "launch": {
+      "configurations": [],
+      "compounds": []
+    },
+    "workbench.settings.editor": "json",
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+
+    // Personal settings
+    // "[blade]": {
+    //   "editor.defaultFormatter": "onecentlin.laravel-blade"
+    // },
+    "blade.format.enable": true,
+    "bladeFormatter.format.enabled": true,
+    "bladeFormatter.format.indentSize": 3,
+    "bladeFormatter.format.wrapLineLength": 100,
+    "bladeFormatter.format.wrapAttributes": "force",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 30,
+    "editor.wordWrap": "on",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.smoothScrolling": true,
+    "files.associations": {
+      "*.js": "javascript"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // Include parentheses around a sole arrow function parameter
+    "prettier.arrowParens": "avoid",
+    // Fit code within this line limit
+    "prettier.printWidth": 120,
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.ignoreWindowsGit27Warning": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "todo-tree.highlights.useColourScheme": true,
+    "todo-tree.filtering.excludeGlobs": ["**/node_modules", "**/vendor/**", "**/public/js", "**/public/css"],
+    "todo-tree.general.tags": ["BUG", "FIXME", "TODO", "README", "DEBUG", "[ ]", "[x]"],
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "[handlebars]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "name": "One Dark italic",
+          "scope": [
+            "comment",
+            "entity.other.attribute-name",
+            "keyword",
+            "markup.underline.link",
+            "storage.modifier",
+            "storage.type",
+            "string.url",
+            "variable.language.super",
+            "variable.language.this"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "name": "One Dark italic reset",
+          "scope": [
+            "keyword.operator",
+            "keyword.other.type",
+            "storage.modifier.import",
+            "storage.modifier.package",
+            "storage.type.built-in",
+            "storage.type.function.arrow",
+            "storage.type.generic",
+            "storage.type.java",
+            "storage.type.primitive"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    },
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.ignoreMissingGitWarning": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+
+    // new personal setttings (inspired by caleb porzio)
+
+    // I removed the hyphen "-" from this list for better multi-cursor navigation.
+    // @freekmurze suggested I remove "$" too for php variables - brilliant!
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+
+    // Give it to me as fast as you have it.
+    "editor.quickSuggestionsDelay": 0,
+
+    // Show me whitespace in diffs, just in case some slips through,
+    "diffEditor.ignoreTrimWhitespace": false,
+
+    "editor.fontLigatures": true,
+
+    "editor.fontFamily": "Fira Code Light",
+    "terminal.integrated.fontSize": 13,
+    "editor.lineNumbers": "on",
+
+    // tailwinds css
+    "css.validate": false,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+      "plaintext": "html"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.colorDecorators": false,
+    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "terminal.integrated.tabs.enabled": false,
+    "terminal.external.windowsExec": "C:\\\\cmder\\\\vendor\\\\git-for-windows\\\\bin\\\\bash.exe",
+
+    "vetur.validation.template": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
+    "[blade]": {
+      "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "editor.unicodeHighlight.allowedCharacters": {
+      "ا": true,
+      "ه": true
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Community Material Theme Ocean",
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+  }
