@@ -1,1 +1,1 @@
-Awesome template of VS code settings
+Awesome template for VS code settings
